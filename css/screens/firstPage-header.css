@@ -1,0 +1,102 @@
+#firstPage-header {
+    display: flex;
+    justify-content: center;
+}
+
+/*.firstPage-header__column {
+    width: 33%;
+}*/
+
+/* first-child*/
+.firstPage-header__column:first-child {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.firstPage-header__column img {
+    width: 45px;
+    height: 45px;
+    margin-top: 3px;
+}
+
+.firstPage-header__column:first-child i {
+    margin: 30px 15px;
+}
+
+.firstPage-header__column:first-child span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+}
+
+.firstPage-header__column:first-child sub {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 0.4;
+    margin-bottom: 20px;
+    margin-left: 3px;
+    font-size: 12px;
+}
+
+/*second-child*/
+.firstPage-header__column:nth-child(2) {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.firstPage-header__column:nth-child(2) input {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    height: 15px;
+    width: 70%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.firstPage-header__column:nth-child(2) input::placeholder {
+    font-size: 15px;
+}
+
+.firstPage-header__column:nth-child(2) input[type="text"] {
+    padding: 10px 10px;
+}
+
+.firstPage-header__column__firstButton {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    width: 35px;
+    height: 37px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-right: 10px;
+}
+
+.firstPage-header__column__secondButton {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+/*last-child*/
+.firstPage-header__column:last-child {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.firstPage-header__column:last-child>i {
+    padding-left: 30px;
+}
+
+.firstPage-header__column:last-child button {
+    padding: 7px 15px;
+    border-radius: 20px;
+    color: blue;
+    margin-right: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: white;
+}

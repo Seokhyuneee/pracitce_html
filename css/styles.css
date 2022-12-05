@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cabin:wght@600&family=Open+Sans:wght@600&display=swap');
+@import "reset.css";
+
+/*components*/
+
+/*screens*/
+@import "screens/firstPage-header.css";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
