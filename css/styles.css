@@ -5,6 +5,7 @@
 
 /*screens*/
 @import "screens/firstPage-header.css";
+@import "screens/firstPage-main.css";
 
 body {
     font-family: 'Open Sans', sans-serif;
