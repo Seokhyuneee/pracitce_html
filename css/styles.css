@@ -6,6 +6,8 @@
 /*screens*/
 @import "screens/firstPage-header.css";
 @import "screens/firstPage-main.css";
+@import "screens/loginPage-box.css";
+@import "screens/loginPage-box2.css";
 
 body {
     font-family: 'Open Sans', sans-serif;

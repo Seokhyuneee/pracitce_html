@@ -1,0 +1,95 @@
+#loginPage-box {
+    position: absolute;
+    width: 34%;
+    height: 66%;
+    background-color: white;
+    top: 17%;
+    left: 33%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.loginPage-box__column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginPage-box__column img {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 40px;
+}
+
+.loginPage-box__column span:nth-child(2) {
+    font-size: 22px;
+    margin-bottom: 13px;
+}
+
+.loginPage-box__column span:nth-child(3) {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.loginPage-box__column input {
+    width: 400px;
+    height: 27px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.loginPage-box__column input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.loginPage-box__column input::placeholder {
+    font-size: 20px;
+}
+
+.loginPage-box__column__box {
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    background-color: white;
+    top: 105%;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginPage-box__column__box__element:first-child {
+    color: blue;
+    margin-bottom: 50px;
+}
+
+.loginPage-box__column__box__element:nth-child(2) {
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.loginPage-box__column__box__element:nth-child(2) span {
+    color: blue;
+}
+
+.loginPage-box__column__box__element:last-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginPage-box__column__box__element:last-child span {
+    font-size: 17px;
+    color: blue;
+}
+
+.loginPage-box__column__box__element:last-child button {
+    background-color: rgb(45, 99, 247);
+    font-size: 17px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}

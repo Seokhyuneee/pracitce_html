@@ -1,0 +1,18 @@
+#loginPage-box2 {
+    position: absolute;
+    width: 34%;
+    top: 86%;
+    left: 33%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#loginPage-box2 span:first-child {
+    width: 25%;
+}
+
+#loginPage-box2 div:last-child {
+    width: 63%;
+    display: flex;
+    justify-content: space-between;
+}
